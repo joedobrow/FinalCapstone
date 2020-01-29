@@ -20,10 +20,10 @@ This doesn’t explain much of the WHY or my thoughts, just a bullet outline of 
 https://docs.google.com/presentation/d/1iW6igOogAVr58uQi9FfgY0fs_O62Kxh5bgsa_M2OJOU/edit?usp=sharing
 
 Goal: Build a book recommender
-Conduct exploratory data analysis on my dataset
-Scrape the ‘blurbs’ for each book in my dataset
-Clean scraped books by matching them to the correct ISBN
-Remove nonsense blurbs
+1. Conduct exploratory data analysis on my dataset
+2. Scrape the ‘blurbs’ for each book in my dataset
+3. Clean scraped books by matching them to the correct ISBN
+  a.) Remove nonsense blurbs
 Other cleaning
 Generate vector embeddings of the blurbs using BERT
 Cluster the vector embeddings using K-Means
