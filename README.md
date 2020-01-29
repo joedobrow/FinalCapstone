@@ -1,5 +1,6 @@
-## Final Capstone
-#Book Recommender using BERT NLP on scraped Blurbs
+# Final Capstone
+
+Book Recommender using BERT NLP on scraped Blurbs
 
 There are 5 notebooks involved in this project:
 
