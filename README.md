@@ -23,20 +23,12 @@ Goal: Build a book recommender
 1. Conduct exploratory data analysis on my dataset
 2. Scrape the ‘blurbs’ for each book in my dataset
 3. Clean scraped books by matching them to the correct ISBN
-  a.) Remove nonsense blurbs
-Other cleaning
-Generate vector embeddings of the blurbs using BERT
-Cluster the vector embeddings using K-Means
-Use SVD to predict a user-item matrix where the items are clusters
-Tune parameters of SVD to achieve a low RMSE
-Compare to multiple different baseline RMSEs
-In order to evaluate my model, I have to code my own evaluation since I am training on clusters, but want to score RMSE on the books (I would like to talk about this more since this is how I broke my code previously.)
-Parameters to tune:
-Number of clusters
-Threshold for users by minimum number of ratings they’ve made
-Threshold for books by minimum number of ratings of that book
-Parameters of the SVD algorithm: Number Factors and Epochs
-Use the predicted matrix to find the highest rated clusters
-Find the most popular books from the recommended clusters, and recommend them
-Most popular book is defined by my homemade popularity metric which a function of the number of users that rated that book and the average rating
-Create a version of the model that is FAST so it can be used in real-time by a webapp or company that would use my product.
+4. Generate vector embeddings of the blurbs using BERT
+5. Cluster the vector embeddings using K-Means
+6. Use SVD to predict a user-item matrix where the items are clusters
+7. Tune parameters of SVD to achieve a low RMSE
+8. Compare to multiple different baseline RMSEs
+9. Evaluate RMSE on ISBNs despite training on Clusters to get a real evaluation
+10. Use the predicted matrix to find the highest rated clusters
+11. Find the most popular books from the recommended clusters, and recommend them
+12. Create a version of the model that is FAST so it can be used in real-time by a webapp or company that would use my product.
