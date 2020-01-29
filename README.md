@@ -18,6 +18,7 @@ There are 5 notebooks involved in this project:
 # Project Overview
 
 This doesn’t explain much of the WHY or my thoughts, just a bullet outline of the project. The ‘why’ is addressed more in the powerpoint.
+
 https://docs.google.com/presentation/d/1iW6igOogAVr58uQi9FfgY0fs_O62Kxh5bgsa_M2OJOU/edit?usp=sharing
 
 Goal: Build a book recommender
