@@ -1,5 +1,5 @@
-# FinalCapstone
-Book Recommender using BERT NLP on scraped Blurbs
+## Final Capstone
+#Book Recommender using BERT NLP on scraped Blurbs
 
 There are 5 notebooks involved in this project:
 
@@ -14,7 +14,7 @@ There are 5 notebooks involved in this project:
 5. Model Execution -- Functions to implement the recommender system, and utilizes optimal cleaned and processed data.
 
 
-PROJECT OVERVIEW:
+# PROJECT OVERVIEW
 
 This doesn’t explain much of the WHY or my thoughts, just a bullet outline of the project. The ‘why’ is addressed more in the powerpoint.
 https://docs.google.com/presentation/d/1iW6igOogAVr58uQi9FfgY0fs_O62Kxh5bgsa_M2OJOU/edit?usp=sharing
